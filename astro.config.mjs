@@ -4,15 +4,15 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://louisescher.github.io',
+  site: 'https://zhh.cc',
   base: '/',
   integrations: [starlight({
-    title: 'Ion Theme',
+    title: 'ZHH.CC',
     logo: {
       src: './src/assets/ion-logo.svg'
     },
     social: {
-      github: 'https://github.com/louisescher/starlight-ion-theme'
+      twitter: 'https://x.com/xjoylu'
     },
     sidebar: [{
       label: '[home] Home',
